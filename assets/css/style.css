@@ -1,0 +1,174 @@
+body,
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family:'sans-serif';
+    scroll-behavior: smooth;
+    
+}
+
+html * {
+    box-sizing: border-box;
+}
+
+/* Navigation bar  */
+/* list-style-type removes the bullets */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: white;
+}
+.logo {
+    width: 300px;
+}
+nav{
+    width: auto;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #42adad;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: larger ;
+
+}
+nav ul li a:hover{
+    color:pink;
+    background-color: pink;
+    color: #42adad;
+}
+
+
+.hani-img{
+    border: 20px solid #42adad;
+    display:flex;
+    border-radius: 200px;
+    box-sizing: border-box;
+    /* background-color: pink; */
+    padding: 10px;
+    box-sizing: border-box;
+    margin:auto;
+    width: 400px;
+    margin-bottom: 35px;
+    /* height: 400px; */
+    object-fit: cover;
+    /* border-radius: 5px; */
+}
+
+
+/* Landing Page */ 
+.landing-page .img{
+    background-color: pink;
+    align-items: center;
+    border-radius: 50px;
+}
+
+
+
+.landing-page-aboutme{
+    background-color: white;
+    cursor: pointer;
+    height:229px;
+    border-radius: 40px;
+    padding-top:auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: auto;
+    padding: 0px;
+    border: 15px solid #42adad;
+}
+
+.landing-page-paragraph{
+    background-color: pink;
+    width: auto;
+    padding: 40px;
+    margin: 10px;
+    font-size: larger;
+    display: inline-block; 
+    border-radius: auto;
+    padding-top:auto; 
+    text-align: center;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+
+#portfolio{
+    border-radius: 40px;
+    height:auto;
+    weight: auto;
+    background-color: #42adad;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    justify-content: center;    }
+
+@media screen and (max-width:1300px) { 
+    #portfolio{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.sectionBoxbackground{
+    background-color: #42adad;
+}
+
+.sectionBox
+{
+    background-color:pink;
+    /* float: center; */
+    /* justify-content: space-between; */
+    cursor: pointer;
+    width: auto;
+    margin: 50px;
+    padding: 60px;
+    padding-top: 10px;
+    height:auto;
+    box-shadow: 10px 16px #42adad;
+    border: 5px solid pink; 
+    display:flex; 
+    display: inline-block; 
+    box-sizing: border-box;
+    /* border-radius: 50px; */
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+
+
+form{
+    /* Center the form on the page */
+    margin:  auto;
+    width: 500px;
+    /* display: flex; */
+    /* padding: 100px; */
+    border: 5px solid #DDAF94;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+  }
+  .text-right {
+    text-align: right;
+  } 
+
+  .text-center{
+      /* display: flex;
+      justify-content: center; */
+      text-align: center;
+}
+
+
