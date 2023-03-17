@@ -10,6 +10,6 @@ Short Description on the project.
 
 
 
-![alt=image of deployed page] (Images/page1.png)
+![alt=image of deployed page] (Images/website1.png)
 
-![alt=image of deployed page] (Images/page1.png)
+![alt=image of deployed page] (Images/website2.png)
